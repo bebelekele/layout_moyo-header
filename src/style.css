@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   font-family: Roboto, sans-serif;
   font-optical-sizing: auto;
@@ -5,10 +10,6 @@ html {
   font-style: normal;
   font-size: 12px;
   font-variation-settings: 'wdth' 100;
-}
-
-body {
-  margin: 0;
 }
 
 .header {
@@ -47,12 +48,13 @@ img {
 a {
   display: flex;
   position: relative;
-  padding: 25px 0;
+  padding: 23px 0;
   color: black;
   text-decoration: none;
   text-align: center;
   align-items: center;
-  height: 10px;
+
+  /* height: 10px; */
 }
 
 a:hover {
